@@ -72,6 +72,7 @@ main h1{
     border: 1px solid #ccc;
     padding: 20px;
     background-color: #f9f9f9;
+
 }
 
 .learning_activities h2,
@@ -80,6 +81,9 @@ main h1{
     color: #fff;
     padding: 10px;
     margin: 0;
+}
+.learning_activities ul{
+    list-style-type: none;
 }
 
 footer {
