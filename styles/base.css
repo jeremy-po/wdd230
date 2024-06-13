@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Wix+Madefor+Display&display=swap');
+
+body {
+    background-color: #f9f7f0;
+    color: #072a40;
+    font-family: "Wix Madefor Display", "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #0f4e52;
+    color: #f9f7f0;
+    text-align: center;
+}
+
+.profile_pic {
+    width: 10rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #18b7be;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9f7f0;
+    font-family: "Wix Madefor Display", "Helvetica", sans-serif;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #178ca4;
+    color: #f9f7f0;
+}
+
+nav a:focus,
+nav a.active {
+    color: #072a40;
+    background-color: #008dc5;
+    
+}
+
+.main_content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    
+}
+
+main h1{
+    text-align: center;
+}
+.learning_activities,
+.information {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.learning_activities h2,
+.information h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+footer {
+    background-color: #18b7be;
+    color: #000000;
+    font-family: "Wix Madefor Display", "Helvetica", sans-serif;
+    padding: 15px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#flag {
+    height: 1rem;
+    width: auto;
+}
+
