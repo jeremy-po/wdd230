@@ -52,7 +52,6 @@ nav a:focus,
 nav a.active {
     color: #072a40;
     background-color: #008dc5;
-    
 }
 
 .main_content {
@@ -61,18 +60,19 @@ nav a.active {
     padding: 20px;
     display: grid;
     gap: 20px;
-    
+    grid-template-columns: 1fr;
 }
 
-main h1{
+main h1 {
     text-align: center;
+    grid-column: 1 / -1;
 }
+
 .learning_activities,
 .information {
     border: 1px solid #ccc;
     padding: 20px;
     background-color: #f9f9f9;
-
 }
 
 .learning_activities h2,
@@ -82,7 +82,8 @@ main h1{
     padding: 10px;
     margin: 0;
 }
-.learning_activities ul{
+
+.learning_activities ul {
     list-style-type: none;
 }
 
@@ -101,4 +102,3 @@ footer {
     height: 1rem;
     width: auto;
 }
-

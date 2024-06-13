@@ -1,24 +1,17 @@
-@media only screen and (min-width: 38rem) {
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Wix+Madefor+Display&display=swap');
+
+@media screen and (min-width: 600px) {
     nav ul {
         flex-direction: row;
         justify-content: center;
     }
 
-    .main-content {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 1rem;
-    }
-
-    .card {
-        min-height: 500px;
-    }
-
-    .learning-activities {
-        grid-column: span 2;
-    }
     .main_content {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
-    
+
+    main h1 {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
 }
