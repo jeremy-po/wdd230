@@ -31,21 +31,22 @@ nav ul {
     display: flex;
     flex-direction: column;
     background-color: #18b7be;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
+    margin-top: 0;
 }
 
 nav a {
     text-decoration: none;
-    color: #f9f7f0;
+    color: #000000;
     font-family: "Wix Madefor Display", "Helvetica", sans-serif;
-    padding: 20px;
+    padding: 30px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
     background-color: #178ca4;
-    color: #f9f7f0;
+    color: #000000;
 }
 
 nav a:focus,
@@ -101,4 +102,58 @@ footer {
 #flag {
     height: 1rem;
     width: auto;
+}
+
+#hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #f9f7f0;
+    cursor: pointer;
+}
+
+
+
+body.dark-mode {
+    background-color: #333;
+    color: #f9f7f0;
+}
+.dark-mode-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    color: #f9f7f0;
+    cursor: pointer;
+}
+.header_content.dark-mode {
+    background-color: #222;
+    color: #f9f7f0;
+}
+
+nav ul.dark-mode {
+    background-color: #444;
+}
+
+nav a.dark-mode {
+    color: #f9f7f0;
+}
+
+nav a.dark-mode:hover {
+    background-color: #555;
+    color: #f9f7f0;
+}
+
+.learning_activities.dark-mode,
+.information.dark-mode {
+    background-color: #444;
+    border-color: #555;
+}
+
+footer.dark-mode {
+    background-color: #222;
+    color: #f9f7f0;
 }
