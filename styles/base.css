@@ -104,15 +104,17 @@ footer {
     width: auto;
 }
 
-#hamburger {
-    display: none;
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: #f9f7f0;
-    cursor: pointer;
-}
+@media (max-width: 600px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
 
+    #hamburger {
+        display: block;
+    }
+}
 
 
 body.dark-mode {
