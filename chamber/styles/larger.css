@@ -1,0 +1,56 @@
+
+main {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.current-events, .weather-card, .company-spotlights {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.current-events h3, .weather-card h3, .company-spotlights h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.event, .spotlight {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.spotlight {
+    margin: 10px 0;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}

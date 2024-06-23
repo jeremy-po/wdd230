@@ -1,0 +1,118 @@
+body, h1, h2, h3, h4,p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFF9DE;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #A6D0DD;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+    font-size: 1.8rem;
+}
+
+nav {
+    position: relative;
+}
+
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #333;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #FFD3B0;
+    color: #222;
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    margin-top: 1rem;
+}
+
+.hero img {
+    width: 100%;
+    height: 800px;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #FFD3B0;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #FFA07A;
+}
+
+
+
+footer {
+    background-color: #A6D0DD;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
