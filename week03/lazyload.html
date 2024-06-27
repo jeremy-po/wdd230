@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Images</title>
+    <link rel="stylesheet" href="/week03/styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Image Gallery</h1>
+    </header>
+    <main>
+        <img src="/week03/images/frame_0_delay-0.1s.gif" alt="Image 1" loading="lazy">
+        <img src="/week03/images/frame_1_delay-0.1s.gif" alt="Image 2" loading="lazy">
+        <img src="/week03/images/frame_2_delay-0.1s.gif" alt="Image 3" loading="lazy">
+        <img src="/week03/images/frame_3_delay-0.1s.gif" alt="Image 4" loading="lazy">
+        <img src="/week03/images/frame_4_delay-0.1s.gif" alt="Image 5" loading="lazy">
+        <img src="/week03/images/led-brake-light.png" alt="Image 6" loading="lazy">
+    </main>
+    <footer>
+        <p>&copy; 2024. Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script>
+        document.getElementById("lastModified").textContent = document.lastModified;
+    </script>
+</body>
+</html>
