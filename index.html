@@ -24,7 +24,7 @@
     <div class="container">
         <header>
             <div class="header_content">
-                <img class="profile_pic" src="images/profile.jpg" alt="Profile Picture">
+                <img class="profile_pic" src="images/profile.webp" alt="Profile Picture" loading="lazy">
                 <h1>Jeremy Oliver</h1>
                 <button id="hamburger"></button>
                 <button id="dark-mode-toggle" class="dark-mode-button">🌓</button>
@@ -39,6 +39,14 @@
             </ul>
         </nav>
         <main>
+            <div class="hero">
+                <picture>
+                    <img src="images/washington_dc_temple-exterior-4.webp" alt="Favorite Latter-day Temple" loading="lazy">
+                </picture>
+                <div class="overlay">
+                    <h1>Washington D.C. Temple</h1>
+                </div>
+            </div>
             <h1>WDD 230: Web Frontend Development</h1>
             <div class="main_content">
                 <section class="learning_activities">
@@ -55,17 +63,25 @@
                 <section class="information">
                     <h2>Information</h2>
                     <p>Weather: TBD</p>
-                    <p>Number of visits: TBD</p>
+                    <p>Number of visits: <span id="counter">0</span></p>
                 </section>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.028526293101!2d-61.28549768521639!3d10.637995292406702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c358f3033df8e03%3A0x50288ecb26ac2f40!2sArima%2C%20Trinidad%20and%20Tobago!5e0!3m2!1sen!2sus!4v1599781625662!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
             </div>
         </main>
         <footer>
-            <p>&copy; <span id="currentYear"></span> Jeremy Oliver, Trinidad and Tobago <img id="flag" src="images/tntflag.jpeg" alt="Trinidad and Tobago Flag"></p>
+            <p>&copy; <span id="currentYear"></span> Jeremy Oliver, Trinidad and Tobago <img id="flag" src="images/tntflag.webp" alt="Trinidad and Tobago Flag" loading="lazy"></p>
             <p id="lastModified"></p>
         </footer>
     </div>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/visitorCount.js"></script>
 </body>
 </html>
