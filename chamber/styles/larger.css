@@ -53,4 +53,44 @@ main {
     .nav-links.active {
         display: flex;
     }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery img:hover {
+        transform: none;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discover-main {
+        grid-template-columns: 1fr;
+    }
+
+    .discover-main .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .discover-main .gallery img:hover {
+        transform: none;
+        box-shadow: none;
+    }
 }
+

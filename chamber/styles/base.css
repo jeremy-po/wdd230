@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4,p, ul, li, a {
+body, h1, h2, h3, h4, p, ul, li, a {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -57,7 +57,6 @@ nav {
     color: #222;
 }
 
-
 .hero {
     position: relative;
     text-align: center;
@@ -68,7 +67,6 @@ nav {
 .hero img {
     width: 100%;
     height: 800px;
-
 }
 
 .hero-text {
@@ -103,8 +101,6 @@ nav {
     background-color: #FFA07A;
 }
 
-
-
 footer {
     background-color: #A6D0DD;
     color: #333;
@@ -115,4 +111,40 @@ footer {
 
 footer p {
     margin: 0.5rem 0;
+}
+
+.discover-main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.discover-main .sidebar {
+    background-color: #FFF;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.discover-main .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.discover-main .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.discover-main .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#visit-message{
+    padding-top: 50px;
 }
