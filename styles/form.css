@@ -1,3 +1,4 @@
+
 body {
     background-color: #f9f7f0;
     color: #072a40;
@@ -63,33 +64,10 @@ nav a.active {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr;
 }
 
 main h1 {
     text-align: center;
-    grid-column: 1 / -1;
-}
-
-.learning_activities,
-.information {
-    border: 1px solid #ccc;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.learning_activities h2,
-.information h2 {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    margin: 0;
-}
-
-.learning_activities ul {
-    list-style-type: none;
 }
 
 footer {
@@ -138,15 +116,82 @@ nav a.dark-mode:hover {
     color: #f9f7f0;
 }
 
-.learning_activities.dark-mode,
-.information.dark-mode {
-    background-color: #444;
-    border-color: #555;
-}
-
 footer.dark-mode {
     background-color: #222;
     color: #f9f7f0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="range"],
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="range"] {
+    width: calc(100% - 40px);
+    margin-right: 10px;
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+form button[type="submit"] {
+    background-color: #0f4e52;
+    color: #f9f7f0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #178ca4;
+}
+
+output {
+    display: inline-block;
+    width: 40px;
+    font-size: 0.8rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+@media (min-width: 600px) {
+    form {
+        padding: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+    
 }
 
 
@@ -155,7 +200,7 @@ footer.dark-mode {
     #hamburger {
         display: none;
     }
-
+    
     .header_content {
         padding: 20px 40px;
     }
@@ -168,6 +213,7 @@ footer.dark-mode {
         margin-top: 0;
         padding: 0;
         width: auto;
+        justify-content: center;
     }
 
     nav li {
@@ -189,6 +235,7 @@ footer.dark-mode {
         background-color: #18b7be;
         padding: 10px 0;
         text-align: center;
+        
     }
 
     .menu.active {
@@ -197,6 +244,7 @@ footer.dark-mode {
 
     .menu li {
         margin: 10px 0;
+        
     }
 
     .header_content {
@@ -206,4 +254,20 @@ footer.dark-mode {
     #hamburger.active::before {
         content: "❎";
     }
+}
+
+#hamburger {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+#hamburger::before {
+    content: "☰";
 }

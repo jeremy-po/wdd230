@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Lab - Form Validation</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header_content">
+                <img class="profile_pic" src="images/profile.webp" alt="Profile Picture" loading="lazy">
+                <h1>Jeremy Oliver</h1>
+                <button id="hamburger"></button>
+                <button id="dark-mode-toggle" class="dark-mode-button">🌓</button>
+            </div>
+        </header>
+        <nav id="nav-menu">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/wdd230/chamber/index.html">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="/wdd230/form.html">Form</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h1>Web Lab - Form Validation</h1>
+            <form action="record.html" method="get">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" title="Password must be at least 8 characters long and can only be alphanumeric" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$" title="Please enter a valid email address (e.g., yourname@byui.edu)" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Page Rating:</label>
+                    <input type="range" id="rating" name="rating" min="1" max="10" step="1" oninput="ratingOutput.value = rating.value">
+                    <output id="ratingOutput">5</output>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Jeremy Oliver, Trinidad and Tobago <img id="flag" src="images/tntflag.webp" alt="Trinidad and Tobago Flag" loading="lazy"></p>
+            <p id="lastModified"></p>
+        </footer>
+    </div>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/visitcount.js"></script>
+</body>
+</html>
