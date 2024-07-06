@@ -149,7 +149,21 @@ footer.dark-mode {
     color: #f9f7f0;
 }
 
-
+#hamburger {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+#hamburger::before {
+    content: "☰";
+}
 
 @media (min-width: 600px) {
     #hamburger {
@@ -206,4 +220,71 @@ footer.dark-mode {
     #hamburger.active::before {
         content: "❎";
     }
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Wix Madefor Display", "Helvetica", sans-serif;
+    padding: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #178ca4;
+    color: #000000;
+}
+
+nav a:focus,
+nav a.active {
+    color: #072a40;
+    background-color: #008dc5;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hero picture,
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
 }
