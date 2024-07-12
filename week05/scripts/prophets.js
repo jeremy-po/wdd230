@@ -20,11 +20,11 @@ const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophet
         card.classList.add('card');
 
         const fullName = document.createElement('h2');
-        fullName.textContent = `${prophet.firstName} ${prophet.lastName}`;
+        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
 
         const portrait = document.createElement('img');
-        portrait.src = prophet.imagePath;
-        portrait.alt = `Portrait of ${prophet.firstName} ${prophet.lastName}`;
+        portrait.src = prophet.imageurl;
+        portrait.alt = `Portrait of ${prophet.name} ${prophet.lastname}`;
         portrait.loading = 'lazy';
         portrait.width = 200;
         portrait.height = 250;
