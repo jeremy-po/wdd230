@@ -1,0 +1,105 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "/wdd230/week01/holygrail.html",
+                    "title": "Holy Grail"
+                },
+                {
+                    "url": "/wdd230/week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "/wdd230/week01/chamber-site-plan.html",
+                    "title": "Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "/wdd230/week02/design.html",
+                    "title": "Design Activity"
+                },
+                {
+                    "url": "https://codepen.io/jeremy-po/pen/JjqpQGV",
+                    "title": "Hamburger Menu Codepen"
+                },
+                {
+                    "url": "/wdd230/week02/bom.html",
+                    "title": "Book of Mormon Activity"
+                },
+                {
+                    "url": "#",
+                    "title": "Activity 4"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "/wdd230/week03/images/landscape.webp",
+                    "title": "Landscape Image WEBP"
+                },
+                {
+                    "url": "/wdd230/week03/lazyload.html",
+                    "title": "Lazy Load Gallery"
+                },
+                {
+                    "url": "/wdd230/week03/responsive-images.html",
+                    "title": "Responsive Images Activity"
+                },
+                {
+                    "url": "/wdd230/week03/bom.html",
+                    "title": "BOM Activity 2"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/jeremy-po/pen/wvLwroq",
+                    "title": "Pseudo-Classes"
+                },
+                {
+                    "url": "/wdd230/week04/images/combinators-w3schools.png",
+                    "title": "Combinators W3Schools"
+                },
+                {
+                    "url": "/wdd230/week04/tablebuild.html",
+                    "title": "HTML Tables for Data Presentation"
+                },
+                {
+                    "url": "/wdd230/week04/Form-start/index.html",
+                    "title": "Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/jeremy-po/pen/yLdyqwm",
+                    "title": "CSS Psuedo Elements"
+                },
+                {
+                    "url": "/wdd230/week05/new-ward-members.json",
+                    "title": "JSON Activity 2"
+                },
+                {
+                    "url": "#",
+                    "title": "Activity 3"
+                },
+                {
+                    "url": "#",
+                    "title": "Activity 4"
+                }
+            ]
+        }
+    ]
+}
