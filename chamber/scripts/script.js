@@ -45,7 +45,7 @@ function loadMemberDirectory() {
     const gridViewBtn = document.getElementById("grid-view");
     const listViewBtn = document.getElementById("list-view");
 
-    fetch("/wdd230/chamber/data/members.json")
+    fetch("/chamber/data/members.json")
         .then(response => response.json())
         .then(members => displayMembers(members))
         .catch(error => console.error('Error loading members:', error));
@@ -56,7 +56,7 @@ function loadMemberDirectory() {
     function displayMembers(members) {
         memberContainer.innerHTML = members.map(member => `
             <div class="member-card">
-                <img src="/chamber/${member.image}" alt="${member.name}">
+                <img src="/chamber${member.image}" alt="${member.name}">
                 <h4>${member.name}</h4>
                 <p>${member.address}</p>
                 <p>${member.phone}</p>
