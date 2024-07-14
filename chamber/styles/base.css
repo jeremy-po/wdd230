@@ -221,3 +221,28 @@ footer p {
 .thank-you-message a:hover {
     background-color: #FFD3B0;
 }
+
+.member-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+}
+
+.grid .member-card {
+    display: inline-block;
+    width: 30%;
+}
+
+.list .member-card {
+    display: block;
+    width: 100%;
+}
+
+.view-toggle button {
+    margin: 8px;
+}
+
+.view-toggle .active {
+    font-weight: bold;
+}
