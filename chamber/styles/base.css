@@ -227,6 +227,12 @@ footer p {
     padding: 16px;
     margin: 8px;
     text-align: center;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.member-card img{
+    width: 150px;
+    
 }
 
 .grid .member-card {
@@ -245,4 +251,7 @@ footer p {
 
 .view-toggle .active {
     font-weight: bold;
+}
+#member-container.list .member-card img {
+    display: none;
 }
