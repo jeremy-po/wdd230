@@ -56,7 +56,7 @@ function loadMemberDirectory() {
     function displayMembers(members) {
         memberContainer.innerHTML = members.map(member => `
             <div class="member-card">
-                <img src="/chamber/${member.image}" alt="${member.name}">
+                <img src="/wdd230/chamber/${member.image}" alt="${member.name}">
                 <h4>${member.name}</h4>
                 <p>${member.address}</p>
                 <p>${member.phone}</p>
