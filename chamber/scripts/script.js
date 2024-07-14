@@ -45,7 +45,7 @@ function loadMemberDirectory() {
     const gridViewBtn = document.getElementById("grid-view");
     const listViewBtn = document.getElementById("list-view");
 
-    fetch("wdd230/chamber/data/members.json")
+    fetch("data/members.json")
         .then(response => response.json())
         .then(members => displayMembers(members))
         .catch(error => console.error('Error loading members:', error));
