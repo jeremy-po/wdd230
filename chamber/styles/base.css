@@ -179,7 +179,7 @@ footer p {
 }
 
 .weather-card img {
-    max-width: auto;
+    max-width: 100px;
     height: auto;
 }
 
