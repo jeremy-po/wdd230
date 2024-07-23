@@ -237,3 +237,38 @@ footer p {
 .spotlight p {
     margin: 5px 0;
 }
+
+
+#member-container.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+#member-container.grid .member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#member-container.list {
+    display: block;
+}
+
+#member-container.list .member-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#member-container.list .member-card img {
+    margin-right: 1rem;
+    max-width: 100px;
+
+#member-container.list .member-card h4, 
+#member-container.list .member-card p {
+    margin: 0.5rem 0;
+}
+}
