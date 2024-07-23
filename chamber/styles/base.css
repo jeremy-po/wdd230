@@ -113,145 +113,127 @@ footer p {
     margin: 0.5rem 0;
 }
 
-.discover-main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 1rem;
-    margin-top: 1rem;
+#banner {
+    display: none;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    display: none;
 }
 
-.discover-main .sidebar {
-    background-color: #FFF;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#banner h2 {
+    margin: 0;
 }
-
-.discover-main .gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-}
-
-.discover-main .gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.discover-main .gallery img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-#visit-message{
-    padding-top: 50px;
-}
-
-.form-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.form-container form {
-    background-color: #FFF;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.form-container form label {
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-.form-container form input,
-.form-container form select,
-.form-container form textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.form-container form input[type="submit"] {
-    background-color: #A6D0DD;
-    color: #333;
+.banner button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
-.form-container form input[type="submit"]:hover {
-    background-color: #FFD3B0;
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hero img {
+        height: auto;
+    }
+
+    .cta-button {
+        font-size: 0.8rem;
+    }
 }
 
-.membership-benefits {
-    background-color: #FFF;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.thank-you-message {
-    text-align: center;
-    margin: 2rem 0;
-}
-
-.thank-you-message h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.thank-you-message p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-.thank-you-message a {
-    display: inline-block;
-    padding: 0.5rem 1rem;
+.weather-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
     background-color: #A6D0DD;
-    color: #333;
-    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card img {
+    max-width: auto;
+    height: auto;
+}
+
+.weather-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
+
+.forecast {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.forecast div {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.company-spotlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.spotlight {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #A6D0DD;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.spotlight img {
+    width: 100px;
+    height: auto;
     border-radius: 5px;
 }
 
-.thank-you-message a:hover {
-    background-color: #FFD3B0;
+.spotlight h4 {
+    margin: 10px 0;
+    font-size: 1.2rem;
 }
 
-.member-card {
-    border: 1px solid #ccc;
-    padding: 16px;
-    margin: 8px;
-    text-align: center;
-    background-color: #ccc;
-    border-radius: 10px;
-}
-.member-card img{
-    width: 150px;
-    
-}
-
-.grid .member-card {
-    display: inline-block;
-    width: 30%;
-}
-
-.list .member-card {
-    display: block;
-    width: 100%;
-}
-
-.view-toggle button {
-    margin: 8px;
-}
-
-.view-toggle .active {
-    font-weight: bold;
-}
-#member-container.list .member-card img {
-    display: none;
+.spotlight p {
+    margin: 5px 0;
 }

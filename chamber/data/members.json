@@ -4,7 +4,7 @@
         "address": "20-21 Hollis Avenue, Arima, Trinidad and Tobago, W.I.",
         "phone": "(868) 225-4800",
         "website": "https://admtnt.com",
-        "image": "/images/adm.png",
+        "image": "/images/adm.webp",
         "membership_level": "Gold"
     },
     {
@@ -12,7 +12,7 @@
         "address": "Lots 41 & 42a, Arima, Trinidad and Tobago, W.I.",
         "phone": "(868) 123-4567",
         "website": "https://roofsystemstt.com/",
-        "image": "/images/roof-systems.png",
+        "image": "/images/roof-systems.webp",
         "membership_level": "Silver"
     },
     {
@@ -20,7 +20,7 @@
         "address": "O'Meara Plaza, O'Meara Road, Arima, Trinidad and Tobago, W.I.",
         "phone": "(868) 646-5567",
         "website": "https://www.facebook.com/xtrafoodscares/",
-        "image": "/images/xtrafoods.jpg",
+        "image": "/images/xtrafoods.webp",
         "membership_level": "Silver"
     },
     {
@@ -28,7 +28,7 @@
         "address": "Shops of Arima, Arima, Trinidad and Tobago, W.I.",
         "phone": "(868) 33-HAKKA (42552)",
         "website": "https://hakkaexpress.com",
-        "image": "/images/hakka.png",
+        "image": "/images/hakka.webp",
         "membership_level": "Silver"
     },
     {
@@ -36,7 +36,7 @@
         "address": "12 Omeara Road, Arima, Trinidad and Tobago, W.I.",
         "phone": "+1 868-642-3442",
         "website": "https://steelstructures.com",
-        "image": "/images/steel_structures.png",
+        "image": "/images/steel_structures.webp",
         "membership_level": "Bronze"
     },
     {
@@ -44,7 +44,7 @@
         "address": "202 Paper Street, Arima, Trinidad and Tobago, W.I.",
         "phone": "(868) 567-8901",
         "website": "https://grandbaygroup.com/en/trinidad-y-tobago/",
-        "image": "/images/grand_bay_paper.png",
+        "image": "/images/grand_bay_paper.webp",
         "membership_level": "Gold"
     },
     {
@@ -52,7 +52,7 @@
         "address": "303 Canner Lane, Arima, Trinidad and Tobago, W.I.",
         "phone": "(868) 678-9012",
         "website": "https://www.facebook.com/people/National-Canners-Limited/100089656236503/",
-        "image": "/images/national_canners.jpg",
+        "image": "/images/national_canners.webp",
         "membership_level": "Silver"
     }
 ]
