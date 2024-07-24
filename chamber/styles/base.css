@@ -234,12 +234,13 @@ footer p {
 #member-container.list .member-card img {
     margin-right: 1rem;
     max-width: 100px;
+}
 
 #member-container.list .member-card h4, 
 #member-container.list .member-card p {
     margin: 0.5rem 0;
 }
-}
+
 
 
 #visit-message{
