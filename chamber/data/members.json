@@ -5,7 +5,7 @@
         "phone": "(868) 225-4800",
         "website": "https://admtnt.com",
         "image": "/images/adm.webp",
-        "membership_level": "Gold"
+        "membership_level": "Bronze"
     },
     {
         "name": "Roof Systems Ltd.",
@@ -13,7 +13,7 @@
         "phone": "(868) 123-4567",
         "website": "https://roofsystemstt.com/",
         "image": "/images/roof-systems.webp",
-        "membership_level": "Silver"
+        "membership_level": "Gold"
     },
     {
         "name": "Xtra Foods Arima",
@@ -21,7 +21,7 @@
         "phone": "(868) 646-5567",
         "website": "https://www.facebook.com/xtrafoodscares/",
         "image": "/images/xtrafoods.webp",
-        "membership_level": "Silver"
+        "membership_level": "Gold"
     },
     {
         "name": "Hakka Express",
@@ -37,7 +37,7 @@
         "phone": "+1 868-642-3442",
         "website": "https://steelstructures.com",
         "image": "/images/steel_structures.webp",
-        "membership_level": "Bronze"
+        "membership_level": "Gold"
     },
     {
         "name": "Grand Bay Paper Products Limited",
@@ -45,7 +45,7 @@
         "phone": "(868) 567-8901",
         "website": "https://grandbaygroup.com/en/trinidad-y-tobago/",
         "image": "/images/grand_bay_paper.webp",
-        "membership_level": "Gold"
+        "membership_level": "Silver"
     },
     {
         "name": "National Canners Limited",
